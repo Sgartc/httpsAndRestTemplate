@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" >
+    <title>Dashboard Template for Bootstrap</title>
+  </head>
+
+  </head>
+
+  <!--	顶部导航栏-->
+  <body>
+  用户：<p th:text="${session.loginUser}"></p>
+
+
+  <a class="nav-link" th:href="@{/emps}">员工管理</a>
+</body>
+</html>
